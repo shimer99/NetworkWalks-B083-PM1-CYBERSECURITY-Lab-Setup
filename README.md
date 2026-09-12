@@ -91,7 +91,7 @@ MAC Address:   08:00:27:5A:87:BC
 
 The VM was powered on and booted successfully into Kali Linux via GRUB.
 
-![Kali VM booting](screenshots/05-kali-booting.png)
+![Kali VM booting](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/Screenshot%202026-09-09%20020409.png?raw=true)
 
 ### Step 6. Configure a Static IP on Kali
 
