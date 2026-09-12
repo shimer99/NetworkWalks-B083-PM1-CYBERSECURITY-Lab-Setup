@@ -116,7 +116,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
       RX packets 2  bytes 650 (650.0 B)
       TX packets 23  bytes 2828 (2.7 KiB)
 
-![ifconfig output confirming static IP](screenshots/07-ifconfig-verification.png)
+![ifconfig output confirming static IP](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/WhatsApp%20Image%202026-09-10%20at%2022.31.46.jpeg?raw=true)
 
 This confirms the Kali VM is correctly assigned the static IP 10.0.0.2/24 with the expected MAC address, matching the NAT Network configuration.
 
@@ -125,22 +125,27 @@ Check IP address	ifconfig	✅ 10.0.0.2/24 assigned to eth0
 <!-- Add ping/gateway/internet/DNS/nmap results here once tested, e.g.: | Test gateway | `ping 10.0.0.1` | | | Test internet | `ping 8.8.8.8` | | | Test DNS resolution | `nslookup kali.org` | | -->
 
 # Problems Encountered & Solutions
-<!-- Add any issues you ran into during setup, e.g. VT-x errors, NIC not detected, DNS not resolving, etc. -->
+I had previously set up VirtualBox and Kali Linux before, and deleted that setup to start fresh for this lab. However, leftover files from the earlier installation caused conflicts during the new setup.
+
+Solution: Identified and removed the leftover files from the old installation before proceeding, which resolved the conflict and allowed the new VirtualBox and Kali Linux setup to complete successfully.
+
 # What I Learned
-<!-- Your own reflections on NAT Networks, VirtualBox networking, static IP config, etc. -->
+Through this project, I learned how to build a virtual lab environment for penetration testing and cybersecurity studies - from setting up a hypervisor and importing a security-focused OS, to configuring an isolated NAT Network and assigning a static IP so the VM stays consistently addressable for future testing.
 # Security & Ethical Use
 
 This lab is intended strictly for educational purposes, on systems I own or am authorized to test.
 
 # Tools & Resources
 VirtualBox: https://virtualbox.org/wiki/Downloads
+
 Kali Linux: https://kali.org/get-kali
+
 # Acknowledgments
 
 Documentation structure referenced from waqaskarimccie's Cybersecurity Lab Setup README.
 
 # Author
 
-[Your Name]
+Mohamed Rafeek Mohamed Shimer
 
-LinkedIn: <your link>
+LinkedIn: www.linkedin.com/in/rafeek-shime
