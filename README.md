@@ -103,7 +103,7 @@ Netmask:   24 (255.255.255.0)
 Gateway:   10.0.0.1
 DNS:       8.8.8.8
 
-![Kali static IP configuration](screenshots/06-kali-static-ip.png)
+![Kali static IP configuration](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/Screenshot%202026-09-09%20022214.png?raw=true)
 
 # Lab Verification
 
