@@ -57,7 +57,7 @@ Oracle VirtualBox was installed and launched as the hypervisor for the lab.
 
 The Kali Linux 2026.2 (Rolling) x64 virtual machine image was imported into VirtualBox, using an 80.09 GB SATA virtual disk. Default Kali credentials (kali / kali) were used for first login.
 
-![Kali VM details](screenshots/02-kali-vm-details.png)
+![Kali VM details](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/Screenshot%202026-09-09%20015608.png?raw=true)
 
 ### Step 3. Create the NAT Network
 
