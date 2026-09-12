@@ -85,9 +85,9 @@ Adapter Type:  Intel PRO/1000 MT Desktop (82540EM)
 Promiscuous Mode: Deny
 MAC Address:   08:00:27:5A:87:BC
 
-![Kali VM network adapter settings](screenshots/04-vm-network-settings.png)
+![Kali VM network adapter settings](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/Screenshot%202026-09-09%20020320.png?raw=true)
 
-Step 5. Boot the Kali VM
+### Step 5. Boot the Kali VM
 
 The VM was powered on and booted successfully into Kali Linux via GRUB.
 
