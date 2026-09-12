@@ -70,7 +70,7 @@ IPv6 Prefix:  fd17:625c:f037:2::/64
 DHCP:         Enabled
 ```
 
-![NAT Network configuration](screenshots/03-nat-network-config.png)
+![NAT Network configuration](https://github.com/shimer99/NetworkWalks-B083-PM1-CYBERSECURITY-Lab-Setup/blob/main/Screenshot%202026-09-09%20020232.png?raw=true)
 
 A NAT Network was chosen (rather than a plain NAT adapter) because it allows multiple VMs attached to the same network to communicate with each other while still having outbound internet access — which will support adding target VMs to this lab later.
 
